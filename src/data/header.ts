@@ -1,8 +1,8 @@
 import { HeaderDataProps } from 'components/organisms/Header/types';
 
 const header: HeaderDataProps = {
-  name: 'Faqih Muntashir',
-  profilePicture: './img/person.jpg',
+  name: 'Nguyễn Văn Đoàn',
+  profilePicture: './img/person.png',
   job: 'Fullstack Developer',
 };
 

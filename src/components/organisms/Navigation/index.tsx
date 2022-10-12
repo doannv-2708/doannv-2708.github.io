@@ -17,18 +17,18 @@ export default function Navigation({ locale, sections, className }: Props) {
   const [animationFinish, setAnimationFinish] = useState(false);
   const languageOptions: TextSelectOptionProps[] = [
     { label: 'English', value: 'en' },
-    { label: 'Indonesia', value: 'id' },
+    { label: 'VietNam', value: 'vi' },
   ];
 
   const selectedLanguage =
     languageOptions.find(option => option.value === locale.value) || languageOptions[0];
 
   const setSelectedLanguage = (option: TextSelectOptionProps) => {
-    if (option.value === 'en' || option.value === 'id') {
+    if (option.value === 'en' || option.value === 'vi') {
       locale.change(option.value);
     }
   };
-  
+
   return (
     <nav>
       <Animated.FromDirection

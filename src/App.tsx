@@ -5,9 +5,9 @@ import { LanguageContext } from 'contexts';
 import { useState } from 'react';
 
 function App() {
-  const [languange, setLanguage] = useState<'en' | 'id'>('en');
+  const [languange, setLanguage] = useState<'en' | 'vi'>('en');
 
-  const changeLanguage = (lang: 'en' | 'id') => setLanguage(lang);
+  const changeLanguage = (lang: 'en' | 'vi') => setLanguage(lang);
 
   return (
     <LanguageContext.Provider value={{ value: languange, change: changeLanguage }}>

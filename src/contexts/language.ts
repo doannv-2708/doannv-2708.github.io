@@ -1,8 +1,8 @@
 import { createContext } from 'react';
 
 export interface LocaleProps {
-  value: 'en' | 'id';
-  change: (lang: 'en' | 'id') => void;
+  value: 'en' | 'vi';
+  change: (lang: 'en' | 'vi') => void;
 }
 
 const LanguageContext = createContext<LocaleProps>({

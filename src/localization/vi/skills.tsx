@@ -1,29 +1,29 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
-import phpIcon from '@iconify/icons-logos/php';
+import railsIcon from '@iconify/icons-logos/rails';
 import javascriptIcon from '@iconify/icons-logos/javascript';
 import { HighlightedTextIcon } from 'components/molecules';
 
 const Text = () => (
   <>
-    Saya sudah berpengalaman selama dua tahun mendalami{' '}
-    <span className="font-bold text-gray-800">pengembangan website</span> menggunakan{' '}
+    Tôi đã có kinh nghiệm hơn 3 năm để  phát triển các{' '}
+    <span className="font-bold text-gray-800">website</span> sử dụng{' '}
     <HighlightedTextIcon
       as="a"
-      href="https://php.net"
+      href="https://rubyonrails.org/"
       className="mx-2"
-      icon={<Icon icon={phpIcon} style={{ fontSize: '24px' }} />}
+      icon={<Icon icon={railsIcon} style={{ fontSize: '24px' }} />}
     >
-      PHP
+      Ruby On Rails
     </HighlightedTextIcon>{' '}
-    dan{' '}
+    Và{' '}
     <HighlightedTextIcon
       className="mx-2"
       icon={<Icon icon={javascriptIcon} style={{ fontSize: '24px' }} />}
     >
       Javascript
     </HighlightedTextIcon>{' '}
-    hingga saya cukup percaya diri untuk membangun aplikasi menggunakan:
+    Và tôi khá tự tin sử dụng một số công cụ sau:
   </>
 );
 

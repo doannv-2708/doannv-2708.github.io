@@ -85,8 +85,8 @@ const Projects = forwardRef<HTMLElement | undefined, ProjectsSectionProps>(
         </div>
 
         <Animated.FromDirection className="flex justify-center mt-8" from="bottom" animate={controls} custom={2} delay={1}>
-          <RoundedButton as="a" href="https://github.com/itsfaqih">
-            {language.value === 'en' ? 'See more' : 'Lihat Selengkapnya'}
+          <RoundedButton as="a" href="https://github.com/search?q=rails">
+            {language.value === 'en' ? 'See more' : 'Xem thêm'}
           </RoundedButton>
         </Animated.FromDirection>
       </section>

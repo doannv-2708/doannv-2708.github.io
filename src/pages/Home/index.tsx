@@ -18,7 +18,7 @@ import {
   header as headerId,
   about as aboutId,
   skills as skillsId,
-} from 'localization/id';
+} from 'localization/vi';
 import React, { useContext } from 'react';
 
 export default function Home() {

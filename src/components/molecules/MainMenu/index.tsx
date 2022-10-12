@@ -95,7 +95,7 @@ export default function MainMenu({ animationFinish, sections }: Props) {
                           delay={0.2}
                         >
                           <MenuItem active={active}>
-                            {language.value === 'en' ? 'Contact' : 'Kontak'}
+                            {language.value === 'en' ? 'Contact' : 'Liên Hệ'}
                           </MenuItem>
                         </Animated.FromDirection>
                       )}

@@ -50,8 +50,8 @@ const Blogs = forwardRef<HTMLElement | undefined, BlogsSectionProps>(
             <Animated.Letter text={title} animate={controls} custom={0} delay={1} />
           </SectionTitle>
           <Animated.FromDirection from="bottom" animate={controls} custom={0.5} delay={1}>
-            <RoundedButton as="a" href="https://medium.com/@itsfaqih">
-              {language.value === 'en' ? 'More article' : 'Artikel lainnya'}
+            <RoundedButton as="a" href="https://guides.rubyonrails.org/">
+              {language.value === 'en' ? 'More article' : 'Bài Khác'}
             </RoundedButton>
           </Animated.FromDirection>
         </div>

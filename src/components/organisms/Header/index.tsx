@@ -51,7 +51,7 @@ export default function Header({ data, text, lowerSectionRef }: HeaderProps) {
           <TextIconButton
             className="group"
             onClick={() => lowerSectionRef?.current?.scrollIntoView({ behavior: 'smooth' })}
-            text={languange.value === 'en' ? 'Scroll down' : 'Scroll ke bawah'}
+            text={languange.value === 'en' ? 'Scroll down' : 'Cuộn Xuống'}
             icon={
               <svg
                 className="transition-all transform group-hover:translate-y-1"

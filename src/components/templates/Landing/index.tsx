@@ -64,8 +64,7 @@ export default function Landing({ data, locale, sections }: Props) {
             <Contact
               title={sections.contact}
               content={{
-                email: contact.email,
-                socials: contact.socials,
+                email: contact.email
               }}
             />
           </footer>

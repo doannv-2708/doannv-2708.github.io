@@ -2,41 +2,41 @@ import { ProjectCardDataProps } from "components/molecules/ProjectCard/types";
 
 const projects: ProjectCardDataProps[] = [
   {
-    title: 'usePagination',
-    description: 'Simple client side pagination hooks for react.',
+    title: 'Solidus Ecommerce',
+    description: 'A ecommerce platform that gives you complete control over your store.',
     type: 'github',
-    url: 'https://github.com/itsfaqih/usepagination',
+    url: 'https://github.com/solidusio/solidus',
   },
   {
-    title: 'larareactia',
+    title: 'Discourse',
     description:
-      'Laravel SPA + React + Inertia.js + TailwindCSS starter template with authentication.',
+      'discussion forum',
     type: 'github',
-    url: 'https://github.com/itsfaqih/larareactia',
+    url: 'https://github.com/discourse/discourse',
   },
   {
-    title: 'Overflow',
-    description: 'TailwindCSS Admin Dashboard Template.',
-    type: 'dribbble',
-    url: 'https://dribbble.com/shots/11877395-Overflow-TailwindCSS-Admin-Dashboard-Template',
-  },
-  {
-    title: 'kos-manager',
-    description: 'Lodgement management application. Developed with Laravel, Inertiajs, and React.',
+    title: 'The Odin Project',
+    description: 'curriculum for learning full-stack web development.',
     type: 'github',
-    url: 'http://github.com/itsfaqih/kos-manager',
+    url: 'https://github.com/TheOdinProject/theodinproject',
   },
   {
-    title: 'Nyx',
-    description: 'TailwindCSS Landing Page Template.',
-    type: 'dribbble',
-    url: 'https://dribbble.com/shots/11712756-Nyx-TailwindCSS-Landing-Page-Template',
-  },
-  {
-    title: 'flexbox-tutorial',
-    description: 'CSS layouting using flexbox tutorial.',
+    title: 'Chatwoot',
+    description: 'Customer engagement suite',
     type: 'github',
-    url: 'http://github.com/itsfaqih/flexbox-tutorial',
+    url: 'https://github.com/chatwoot/chatwoot',
+  },
+  {
+    title: 'Pageflow',
+    description: 'Multimedia storytelling for the web',
+    type: 'github',
+    url: 'https://github.com/codevise/pageflow',
+  },
+  {
+    title: 'OneBody',
+    description: 'web-based social networking',
+    type: 'github',
+    url: 'https://github.com/seven1m/onebody',
   },
 ];
 

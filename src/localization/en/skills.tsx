@@ -1,20 +1,20 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
-import phpIcon from '@iconify/icons-logos/php';
+import railsIcon from '@iconify/icons-logos/rails';
 import javascriptIcon from '@iconify/icons-logos/javascript';
 import { HighlightedTextIcon } from 'components/molecules';
 
 const Text = () => (
   <>
-    I’ve spent about two years on improving my skills in{' '}
-    <span className="font-bold text-gray-800">website development</span> using{' '}
+    I have more than 3 years of experience as{' '}
+    <span className="font-bold text-gray-800">web developer</span> using{' '}
     <HighlightedTextIcon
       as="a"
-      href="https://php.net"
+      href="https://rubyonrails.org"
       className="mx-2"
-      icon={<Icon icon={phpIcon} />}
+      icon={<Icon icon={railsIcon} />}
     >
-      PHP
+      RubyOnRails
     </HighlightedTextIcon>{' '}
     and{' '}
     <HighlightedTextIcon className="mx-2" icon={<Icon icon={javascriptIcon} />}>
