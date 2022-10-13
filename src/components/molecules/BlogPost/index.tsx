@@ -7,7 +7,7 @@ import classNames from 'classnames';
 export default function BlogPost({ data, className }: BlogsProps) {
   const { title, date, url } = data;
   const language = useContext(LanguageContext);
-  const formattedDate = new Intl.DateTimeFormat(language.value === 'en' ? 'en-US' : 'id-ID', {
+  const formattedDate = new Intl.DateTimeFormat(language.value === 'en' ? 'en-US' : 'vi-VI', {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
