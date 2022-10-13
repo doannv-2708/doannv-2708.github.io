@@ -2,6 +2,7 @@
   "name": "personal-branding-template",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://doannv-2708.github.io/",
   "dependencies": {
     "@headlessui/react": "^0.2.0",
     "@testing-library/jest-dom": "^5.11.4",
@@ -15,6 +16,7 @@
     "body-scroll-lock": "^3.1.5",
     "classnames": "^2.2.6",
     "framer-motion": "^2.9.4",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-intersection-observer": "^8.30.3",
@@ -29,7 +31,9 @@
     "dev": "concurrently \"yarn watch:style\" \"yarn start\"",
     "build": "yarn build:style && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
